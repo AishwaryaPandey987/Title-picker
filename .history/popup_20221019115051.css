@@ -1,0 +1,21 @@
+body{
+
+  background-color: aliceblue;
+
+}
+.wrapper{
+  width: 300px;
+  text-align: center;
+
+}
+
+.changetitleBtn{
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: rgb(184, 78, 96);
+  cursor: pointer;
+
+}

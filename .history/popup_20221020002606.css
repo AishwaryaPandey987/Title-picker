@@ -1,0 +1,29 @@
+body{
+
+  background-color: aliceblue;
+
+}
+.wrapper{
+  width: 300px;
+  text-align: center;
+
+}
+
+.changetitleBtn{
+  width: 200px;
+  height: auto;
+  outline: none;
+  border-color: black ;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: rgb(249, 252, 252);
+  cursor: pointer;
+
+}
+.titleGrid {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius:2px ;
+  text-align: center;
+}

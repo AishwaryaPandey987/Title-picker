@@ -1,0 +1,19 @@
+{
+  "name": "Title picker",
+  "description": "  A title picker extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background":{
+    "service_worker":"background.js"
+
+},
+
+"action":{
+  "default_popup":"popup.html"
+},
+"Icon": {
+  "23734836": "/images/eye-dropper-icon-simple-style-vector-23734836.jpg"
+}
+
+
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Title picker",
+  "description": "  A title picker extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background":{
+    "service_worker":"background.js"
+},
+"icons": {
+  "16": "/images/logo.png",
+  "32" :"/images/eye-dropper-icon-simple-style-vector-23734836 (2).png",
+  "48" : "/images/eye-dropper-icon-simple-style-vector-23734836 (3).png"
+},
+
+"permissions":[
+  "storage",
+  "activeTab",
+  "scripting"
+],
+"action":{
+  "default_popup":"popup.html",
+  "default_icon" : "/images/logo.png"
+},
+
+
+
+}
